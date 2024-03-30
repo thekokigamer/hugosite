@@ -2,11 +2,4 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "nightfall"
-[params]
-user = "hello"
-hostname = "gohugo.io"
-[params.author]
-name = "Mr Hugo"
-email = "hugo@example.com
-
 
