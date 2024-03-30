@@ -1,5 +1,46 @@
 baseURL = 'https://jorgelp.cl/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "nightfall"
+title = 'Personal WebSite'
+
+[menu]
+  [[menu.header]]
+    name = "CV"
+    weight = 0
+    url = "/cv"
+
+  [[menu.header]]
+    name = "Blog"
+    weight = 2
+    url = "/blog"
+
+  [[menu.header]]
+    name = "About"
+    weight = 1
+    url = "/about"
+
+
+[params]
+user = "jorge"
+hostname = "uc.cl"
+
+  [params.author]
+    name = "Jorge Lackington P."
+    email = "jorgelp@uc.cl"
+
+
+
+[[params.social]]
+key = 0
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/jorge-lackington"
+
+[[params.social]]
+key = 1
+name = "Email"
+url = "mailto:jorgelp@uc.cl"
+
+
+
+
+
 
